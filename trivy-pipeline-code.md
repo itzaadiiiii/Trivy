@@ -34,3 +34,4 @@ trivy_fs_scan:
 **Just replace with exit-code=1 to 0 if found**
 ---
 
+**Once Done You can download the artifact or zip file ------> Extract ------> Open html file -------> Share with Developers**
