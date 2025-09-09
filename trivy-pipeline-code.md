@@ -31,6 +31,7 @@ trivy_fs_scan:
 ```
     - trivy fs --exit-code 0 --severity CRITICAL .
 ```
+
 **Just replace with exit-code=1 to 0 if found**
 ---
 
