@@ -23,7 +23,8 @@ trivy_fs_scan:
     expire_in: 7 days
 ```
 ---
-**Note :**  ***( This is job code will run successfully but will give exit code if your code has critical vulnerabilities )***   we ran it on gitlab where we installed trivy on runner
+**Note :**  ***( This is job code will run successfully but will give exit code if your code has critical vulnerabilities )***   ***#we ran it on gitlab where we installed trivy on runner***
+
 **Allow pipeline to pass even if CRITICAL vulns exist** 
 ```
     - trivy fs --exit-code 0 --severity CRITICAL .
