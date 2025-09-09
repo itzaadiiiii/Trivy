@@ -15,7 +15,10 @@ sudo apt-get install trivy
 ```
 trivy --version
 ```
-
+**OR**
+```
+trivy -v
+```
 ## ---COMMANDS---
 
 trivy image imagename
