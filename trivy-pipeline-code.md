@@ -1,6 +1,6 @@
 # Trivy codee or job that scans your repo for security issues and uploads reports.
 ## .gitlab-ci.yml
-##( But will work with any CI tool like Jenkins and Others)
+### ( But will work with any CI tool like Jenkins and Others)
 ```
 
 trivy_fs_scan:
@@ -32,7 +32,7 @@ trivy_fs_scan:
     - trivy fs --exit-code 0 --severity CRITICAL .
 ```
 
-**Just replace with exit-code=1 to 0 if found**
+** Just replace with exit-code=1 to 0 if found **
 ---
 
 ### Once Done You can download the artifact or zip file ------> Extract ------> Open html file -------> Share with Developers
