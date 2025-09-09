@@ -1,4 +1,5 @@
 # Trivy codee or job that scans your repo for security issues and uploads reports.
+## .gitlab-ci.yml
 ```
 
 trivy_fs_scan:
