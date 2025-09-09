@@ -31,8 +31,7 @@ trivy_fs_scan:
 ```
     - trivy fs --exit-code 0 --severity CRITICAL .
 ```
-
-** Just replace with exit-code=1 to 0 if found **
+*Just replace with exit-code=1 to 0 if found*
 ---
 
 ### Once Done You can download the artifact or zip file ------> Extract ------> Open html file -------> Share with Developers
